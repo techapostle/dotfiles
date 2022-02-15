@@ -436,6 +436,6 @@ pfetch
 #colorscript random
 
 # Source files
-source /opt/ros/noetic/setup.zsh
+#source /opt/ros/noetic/setup.zsh
 
 
