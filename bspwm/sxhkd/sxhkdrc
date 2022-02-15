@@ -8,11 +8,11 @@
 
 # Vivaldi
 super + F1
-	vivaldi-stable
+	firefox
 
 # Atom
 super + F2
-	atom
+	code
 
 #Inkscape
 super + F3
@@ -64,15 +64,15 @@ super + e
 
 #Browser
 super + w
-    vivaldi-stable
+    firefox
 
 #Conky-toggle
-super + c
-    conky-toggle
+#super + c
+#    conky-toggle
 
 #Htop
 super + h
-    urxvt 'htop task manager' -e htop
+    alacritty 'htop task manager' -e htop
 
 #arcolinux-logout
 super + x
@@ -84,15 +84,15 @@ super + r
 
 #Urxvt
 super + t
-    urxvt
+    alacritty
 
 #Pavucontrol
-super + v
-    pavucontrol
+#super + v
+#    pavucontrol
 
 #Pragha
-super + m
-    pragha
+#super + m
+#    pragha
 
 #alacritty
 super + Return
@@ -139,7 +139,7 @@ super + shift + s
 
 #arcolinux-welcome-app
 ctrl + alt + w
-     arcolinux-welcome-app
+	dolphin
 
 #arcolinux-tweak-tool
 ctrl + alt + e
@@ -312,7 +312,7 @@ ctrl + shift + Escape
 
 #Scrot
 Print
-    scrot 'ArcoLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
+    scrot 'ArchLinux-%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f $$(xdg-user-dir PICTURES)'
 
 #screeenshooter
 ctrl + Print
