@@ -39,12 +39,13 @@ xsetroot -cursor_name left_ptr &
 # run variety &
 run nm-applet &
 run pamac-tray &
-run xfce4-power-manager &
 numlockx on &
-blueberry-tray &
-picom -b -experimental-backends --config $HOME/.config/picom.conf &
+# blueberry-tray &
+run blueman-manager &
+# picom -b -experimental-backends --config $HOME/.config/picom.conf &
 run volumeicon &
-# nitrogen --restore &
+nitrogen --restore &
 
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 /usr/lib/xfce4/notifyd/xfce4-notifyd &
+# run xfce4-power-manager &
