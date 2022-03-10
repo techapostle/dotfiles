@@ -327,7 +327,8 @@ ex ()
 }
 
 #retarded workarounds for various retarded things
-alias sp='picom -b --experimental-backend'
+alias sp='picom -b --experimental-backends'
+alias spb='picom -b --experimental-backends --config ~/.config/bspwm/picom.conf'
 alias sv='sudo virsh net-start default'
 alias dwmstart='bash ~/.config/dwm/autostart.sh'
 alias dwmkeys='sxhkd -c ~/.config/dwm/sxhkd/sxhkdrc'
@@ -344,6 +345,9 @@ alias personal='cp -Rf /personal/* ~'
 # Navigate to commonly visited folders
 alias cdd='cd /drives/d'
 alias cdr='cd /drives/d/repos'
+alias dlabs='cd /drives/d/School/DSA555/labs/labs-kdadkhah-shokrollahi/'
+alias dass='cd /drives/d/School/DSA555/assignments/'
+alias sch='cd /drives/d/School'
 
 #create a file called .zshrc-personal and put all your personal aliases
 #in there. They will not be overwritten by skel.

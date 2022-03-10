@@ -1,4 +1,6 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator.
+env:
+  TERM: xterm-256color
 
 # Import additional configuration files
 #
@@ -41,9 +43,9 @@ window:
   #
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
-  #padding:
-  #  x: 0
-  #  y: 0
+  padding:
+   x: 4
+   y: 4
   # Spread additional padding evenly around the terminal content.
   #dynamic_padding: false
   # Window decorations
@@ -104,7 +106,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: hack
+    family: Hack Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -115,7 +117,7 @@ font:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: hack
+    family: Hack Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -126,7 +128,7 @@ font:
     #
     # If the italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: hack
+    family: Hack Nerd Font Mono
 
     # The `style` can be specified to pick a specific face.
     style: Italic
@@ -166,30 +168,30 @@ font:
 #draw_bold_text_with_bright_colors: false
 # Colors (ArcoLinux)
 colors:
-  name: Paraiso (dark)
-  author: Chris Kempson
+  # Default colors
   primary:
-    background: "#2f1e2e"
-    foreground: "#a39e9b"
-  cursor:
-    text: "#2f1e2e"
-    cursor: "#a39e9b"
+    background: '#282a36'
+    foreground: '#f8f8f2'
+
+  # Normal colors
   normal:
-    black: "#2f1e2e"
-    red: "#ef6155"
-    green: "#48b685"
-    yellow: "#fec418"
-    blue: "#06b6ef"
-    magenta: "#815ba4"
-    cyan: "#5bc4bf"
-    white: "#a39e9b"
+    black: '#000000'
+    red: '#ff5555'
+    green: '#50fa7b'
+    yellow: '#f1fa8c'
+    blue: '#caa9fa'
+    magenta: '#ff79c6'
+    cyan: '#8be9fd'
+    white: '#bfbfbf'
+
+  # Bright colors
   bright:
-    black: "#776e71"
-    red: "#ef6155"
-    green: "#48b685"
-    yellow: "#fec418"
-    blue: "#06b6ef"
-    magenta: "#815ba4"
-    cyan: "#5bc4bf"
-    white: "#e7e9db"
-theme: Paraiso.dark
+    black: '#575b70'
+    red: '#ff6e67'
+    green: '#5af78e'
+    yellow: '#f4f99d'
+    blue: '#caa9fa'
+    magenta: '#ff92d0'
+    cyan: '#9aedfe'
+    white: '#e6e6e6'
+theme: Dracula

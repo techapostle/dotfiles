@@ -64,7 +64,7 @@ super + e
 
 #Browser
 super + w
-  firefox
+  brave
 
 #Conky-toggle
 #super + c
@@ -82,17 +82,17 @@ super + x
 super + r
     rofi-theme-selector
 
-#Urxvt
-#super + t
-#    urxvt
+#st terminal
+super + t
+  st
 
 #Pavucontrol
 super + v
     pavucontrol
 
-#Pragha
+# spotify
 #super + m
-#    spotify
+    spotify
 
 #alacritty
 super + Return
@@ -134,20 +134,20 @@ super + shift + s
 #################################################################
 
 #arcolinux-welcome-app
-ctrl + alt + w
-     arcolinux-welcome-app
+#ctrl + alt + w
+#     arcolinux-welcome-app
 
 #arcolinux-tweak-tool
 ctrl + alt + e
     arcolinux-tweak-tool
 
 #conky-rotate
-ctrl + alt + Next
-     conky-rotate -n
+#ctrl + alt + Next
+#     conky-rotate -n
 
 #conky-rotate
-ctrl + alt + Prior
-    conky-rotate -p
+#ctrl + alt + Prior
+#    conky-rotate -p
 
 #File-Manager
 ctrl + alt + b
@@ -168,10 +168,6 @@ ctrl + alt + f
 #Nitrogen
 ctrl + alt + i
      nitrogen
-
-#arcolinux-logout
-ctrl + alt + k
-     arcolinux-logout
 
 #arcolinux-logout
 ctrl + alt + l
